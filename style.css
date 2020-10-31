@@ -1,0 +1,79 @@
+body {
+	font-family: Fedra Sans,sans-serif;
+}
+#all_nav {
+	color: white;
+	background-color: #16182e;
+	padding: 15px;
+}
+#navvv {
+	font-size: 13px;
+}
+#logo {
+	font-size: 25px;
+}
+#logo span {
+	color: #f5424b;
+}
+#Home {
+	color: #f5424b;
+}
+hr {
+    border: none; /* Убираем границу для браузера Firefox */
+    color: #1c1e38; /* Цвет линии для остальных браузеров */
+    background-color: #1c1e38; /* Цвет линии для браузера Firefox и Opera */
+    height: 10px;
+    margin: 0;
+}
+
+/*article*/
+article {
+	max-width: 100%;
+	height: 450px;
+	background-color: #f5424b;
+}
+
+#phone_1 {
+  object-fit: cover;
+  width: 15%;
+  margin-top: 65px;
+}
+#phone_2 {
+	margin-top: 25px;
+}
+.left {
+	margin-top: 65px;
+}
+.right {
+	margin-left: 3%;
+	margin-top: 65px;
+}
+@media screen and (max-width: 689px) {
+	#phone_2 {
+		display: none;
+	}
+}
+
+/* content */ 
+.content {
+	background-color: #e8e8e8;
+	max-width: 100%;
+	min-height: 400px;
+	margin-bottom: 150px;
+	color: #696969;
+}
+.content h2 {
+	padding-top: 55px;
+	padding-left: 20px;
+	font-weight: 600;
+	color: #4a4a4a;
+}
+.content p {
+	padding-top: 15px;
+	padding-left: 20px;
+	font-weight: 300;
+
+}
+#pages {
+	margin-top: 45px;
+}
